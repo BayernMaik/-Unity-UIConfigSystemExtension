@@ -44,5 +44,27 @@ namespace UI
             this.title = title;
         }
         #endregion
+        #region Unity Editor
+        public const string propertyTitle = "title";
+        public const string propertyShortTitle = "shortTitle";
+        public const string propertyDescription = "description";
+        public const string propertyTexture2D = "texture2D";
+        public static readonly GUIContent guiTitle = new GUIContent(
+            "Title",
+            "Detail Data Title"
+        );
+        public static readonly GUIContent guiShortTitle = new GUIContent(
+            "Short",
+            "Detail Data Short Title"
+        );
+        public static readonly GUIContent guiDescription = new GUIContent(
+            "Description",
+            "Detail Data Description"
+        );
+        public static readonly GUIContent guiTexture2D = new GUIContent(
+            "Texture(2D)",
+            "Detail Data Texture2D"
+        );
+        #endregion
     }
 }

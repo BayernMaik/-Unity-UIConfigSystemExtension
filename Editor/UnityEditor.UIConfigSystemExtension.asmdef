@@ -1,0 +1,18 @@
+{
+    "name": "UnityEditor.UIConfigSystemExtension",
+    "rootNamespace": "",
+    "references": [
+        "GUID:41c3334c9fb7d4ab682f308aecdb928a"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Editor"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
