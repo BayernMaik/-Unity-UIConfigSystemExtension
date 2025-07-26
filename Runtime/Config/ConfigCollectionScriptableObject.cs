@@ -8,21 +8,21 @@ namespace UI
     public abstract class ConfigCollectionScriptableObject<T, U> : ScriptableObject
     {
         #region Attributes
-        [SerializeField] private ConfigCollection<T, U> collection;
+        [SerializeField] private ConfigList<T, U> collection;
         #endregion
         #region Properties
-        public ConfigCollection<T, U> Collection
+        public ConfigList<T, U> Collection
         {
             get { return this.collection; }
             set { this.collection = value; }
         }
         #endregion
         #region Methods
-        public ConfigCollection<T, U> GetCollection()
+        public ConfigList<T, U> GetCollection()
         {
             return this.collection;
         }
-        public void SetData(ConfigCollection<T, U> collection)
+        public void SetData(ConfigList<T, U> collection)
         {
             this.collection = collection;
         }
