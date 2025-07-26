@@ -1,25 +1,21 @@
 {
-  "name": "com.bayernmaik.uiconfigsystemextension",
+  "name": "de.bayernmaik.uiconfigsystemextension",
   "version": "0.0.2",
   "displayName": "UIConfigSystemExtension",
-  "description": "This is an example package",
+  "description": "Extending UIConfigSystem with ScriptableObjects",
   "unity": "2022.3",
   "unityRelease": "2f1",
-  "documentationUrl": "https://example.com/",
-  "changelogUrl": "https://example.com/changelog.html",
-  "licensesUrl": "https://example.com/licensing.html",
-  "keywords": [
-    "keyword1",
-    "keyword2",
-    "keyword3"
-  ],
+  "documentationUrl": "",
+  "changelogUrl": "",
+  "licensesUrl": "",
+  "keywords": [],
   "author": {
-    "name": "Unity",
-    "email": "unity@example.com",
-    "url": "https://www.unity3d.com"
+    "name": "BayernMaik",
+    "email": "michael@familie-gerl.de",
+    "url": ""
   },
-  "type": "tool",
+  "type": "library",
   "dependencies": {
-    "com.bayernmaik.uiconfigsystem": "0.0.1"
+    "de.bayernmaik.uiconfigsystem": "0.0.2"
   }
 }
